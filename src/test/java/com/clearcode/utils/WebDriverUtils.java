@@ -240,8 +240,8 @@ public class WebDriverUtils {
 			return element;
 		}
 		
-		public void switchFrame(By loc) {
-			driver.switchTo().frame(driver.findElement(loc));
+		public void switchFrame(int i) {
+			driver.switchTo().frame(driver.findElement(i));
 		}
 		
 		public void switchOut() {
